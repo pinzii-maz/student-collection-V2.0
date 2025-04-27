@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
+@section('tittle', 'Student Collection')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
-    <title>Document</title>
-</head>
-
-<body class="bg-secondary">
-
-</body>
-
-</html>
+@section('content')
+    <div class="bg-blue-500 p-6">
+        <h1>Ini Home</h1>
+    </div>
+@endsection
